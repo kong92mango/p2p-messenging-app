@@ -1,0 +1,46 @@
+.message-container {
+  background-color: white;
+  width:100%;
+  padding-bottom: 60px;
+  max-height: 50em;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.message-bubble {
+  border-radius: 25px;
+  word-wrap: break-word;
+  padding: 20px;
+  margin: 2em;
+  width: 300px;
+}
+
+.my-message{
+  background-color: lightblue;
+  margin-left: auto;
+}
+
+.others-message{
+  background-color: lightgrey;
+}
+
+.user-input-fields{
+  position:absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 1em;
+}
+
+.message-textbox{
+  width: 90%;
+  height: 4em;
+  vertical-align: middle;
+  resize: none;
+}
+
+.send-button{
+  vertical-align: middle;
+  height:4em;
+  width:4em
+}

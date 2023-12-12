@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"module": "CommonJS",
+		"target": "es6",
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"jsx": "react",
+		"downlevelIteration": true,
+		"resolveJsonModule": true
+	}
+}
